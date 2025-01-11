@@ -26,7 +26,7 @@ class FGSMTargeted(AdversarialAttack):
         self._loss = nn.CrossEntropyLoss()
 
     def _perturb(self, data, epsilon, gradient) -> torch.Tensor:
-        """Apply FGSM adversarial perturbation to the input data."""
+        """Apply FGSM targeted adversarial perturbation to the input data."""
         data_perturbed = data - epsilon * gradient.sign()
 
         # keep image data in the [0,1] range
