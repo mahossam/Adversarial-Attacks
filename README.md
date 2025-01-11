@@ -5,7 +5,7 @@ The implementation is based on the PyTorch tutorial on [Adversarial Example Gene
 and Yannick Merkli's [FGSM implementation](https://github.com/ymerkli/fgsm-attack).
 
 ## How to run
-An example of using FGSM to generate targeted adversarial examples on a pretrained MNIST model is provided in `adversarial_attack_demo.ipynb`.
+The notebook `adversarial_attack_demo.ipynb` provides an example for using the class `FGSMTargeted` to generate targeted adversarial examples on a pretrained MNIST model.
 
 ## `FGSMTargeted` class
 The file `AdversarialAttack.py` contains the implementation of the abstract class `AdversarialAttack` and the concrete class `FGSMTargeted`.
