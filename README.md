@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 AdversarialAttack library provides an implementation of the Fast Gradient Sign Method (FGSM) targeted attack on MNIST dataset.
 
 The implementation is based on the PyTorch tutorial on [Adversarial Example Generation](https://pytorch.org/tutorials/beginner/fgsm_tutorial.html) 
