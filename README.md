@@ -12,5 +12,5 @@ The file `AdversarialAttack.py` contains the implementation of the abstract clas
 
 The `FGSMTargeted` class implements the targeted FGSM targeted attack on a neural network model, which can be any PyTorch model.
 
-You can add another attack method (e.g. PGD) by implementing the abstract method `generate_adv_example()` in new concrete class that implements `AdversarialAttack`.
+You can add another attack method (e.g. [PGD](https://arxiv.org/abs/1706.06083)) by implementing the abstract method `generate_adv_example()` in new concrete class that implements `AdversarialAttack`.
 
